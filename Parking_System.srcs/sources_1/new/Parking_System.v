@@ -17,8 +17,8 @@ seven_seg s1(display, seg);
 wire slowclock;
 slowclock_100Hz s2(clock, slowclock);
 
-wire three_sec;
-delay2_clock s3(clock, three_sec);
+wire five_sec;
+delay2_clock s3(clock, five_sec);
 
 wire [2:0] count, car_available;
 wire [2:0] count2, car_availablex;
