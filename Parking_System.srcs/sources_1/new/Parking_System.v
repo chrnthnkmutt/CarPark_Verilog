@@ -117,7 +117,7 @@ always @(posedge slowclock) begin
 end
 
 // Change display content
-always @(posedge three_sec) begin
+always @(posedge five_sec) begin
     change <= change + 1;
 end
 
