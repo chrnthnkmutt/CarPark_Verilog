@@ -1,5 +1,12 @@
 # FPGA Parking System on Basys3
 
+## Created By
+- Charunthon Limseelo
+- Aunyada Kumraksa
+- Pakawat Phasook
+- Nanthida Teankrajang
+- Narinthorn Navabutr
+
 ## Overview
 This project implements a simple parking system using the Basys3 FPGA development board. The system monitors and displays the available parking slots on a seven-segment display and outputs the current floor status on an LED. It is designed to handle multiple floors and slots using basic logic components like LUTs, flip-flops, and counters.
 
